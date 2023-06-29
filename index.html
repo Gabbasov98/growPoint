@@ -125,6 +125,59 @@
                 </div>
             </section>
 
+            <section class="reviews">
+                <div class="container">
+                    <div class="display2">ПОСМОТРИТЕ ОТЗЫВЫ НАШИХ КЛИЕНТОВ</div>
+                    <div class="reviews-slider">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="review-card">
+                                        <div class="review-card__video">
+                                            <iframe src="https://www.youtube.com/embed/i43tkaTXtwI" title="Best of lofi hip hop 2022 🎆 - beats to relax/study to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="review-card">
+                                        <div class="review-card__video">
+                                            <iframe src="https://www.youtube.com/embed/i43tkaTXtwI" title="Best of lofi hip hop 2022 🎆 - beats to relax/study to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="review-card">
+                                        <div class="review-card__video">
+                                            <iframe src="https://www.youtube.com/embed/i43tkaTXtwI" title="Best of lofi hip hop 2022 🎆 - beats to relax/study to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="review-card">
+                                        <div class="review-card__video">
+                                            <iframe src="https://www.youtube.com/embed/i43tkaTXtwI" title="Best of lofi hip hop 2022 🎆 - beats to relax/study to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="review-card">
+                                        <div class="review-card__video">
+                                            <iframe src="https://www.youtube.com/embed/i43tkaTXtwI" title="Best of lofi hip hop 2022 🎆 - beats to relax/study to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="swiper-button swiper-button-prev">
+                            <img src="img/prev.webp" alt="">
+                        </button>
+                        <button class="swiper-button swiper-button-next">
+                            <img src="img/arrow.webp" alt="">
+                        </button>
+                    </div>
+                </div>
+            </section>
+
             <section class="program">
                 <div class="container">
                     <h2 class="program__title display2">
@@ -582,6 +635,20 @@
     <script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
 
+    <script>
+        function reviewsSlider() {
+            var swiper = new Swiper('.reviews .swiper-container', {
+                slidesPerView: "auto",
+                spaceBetween: 0,
+                navigation: {
+                    nextEl: '.reviews .swiper-button-next',
+                    prevEl: '.reviews .swiper-button-prev',
+                },
+            })
+        }
+
+        reviewsSlider()
+    </script>
 </body>
 
 </html>
